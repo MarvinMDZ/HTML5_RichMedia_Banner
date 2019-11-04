@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>HTML5 Rich Media Banner Video</title>
+	<link rel="stylesheet" href="style.css" />
+	<script>EBModulesToLoad = ['Video', 'EBAPI', 'EBCMD'];</script>
+	<script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<div id="banner" class="banner">
+		<button id="clickBtn"></button>
+		<div class="video-container">
+			<button id="audioButton" class="playerButton audioButton"></button>
+			<button id="controlButton" class="playerButton controlButton"></button>
+			<button id="videoClickBtn" class="videoClickBtn"></button>
+			<video id="video" muted playsinline loop="false" preload="none">
+				<source src="videos/video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+</body>
+
+</html>
